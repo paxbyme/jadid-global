@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+
+@reference "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: var(--color-sand-500);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+  @apply text-inherit no-underline;
+}
